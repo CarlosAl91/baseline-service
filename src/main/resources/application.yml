@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: baseline-service-sgn
+    name: baseline-service
 
 
 security:
