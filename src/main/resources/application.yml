@@ -34,4 +34,3 @@ hystrix:
         sleepWindowInMilliseconds: 5000
             
 
-
