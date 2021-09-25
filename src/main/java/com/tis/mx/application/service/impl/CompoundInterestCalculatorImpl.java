@@ -37,7 +37,6 @@ public class CompoundInterestCalculatorImpl implements CompoundInterestCalculato
     return tableYield; 
   }
   
-  
   /**
    * Fallback revenue grid.
    *
