@@ -13,10 +13,12 @@ security:
 management:
   endpoints:
     web:
-      exposure:        include: '*' 
+      exposure:
+        include: '*' 
 
 
-hystrix:  threadpool:
+hystrix:
+  threadpool:
     default:
       coreSize: 35
       maximumSize: 35
@@ -31,3 +33,5 @@ hystrix:  threadpool:
       circuitBreaker:
         sleepWindowInMilliseconds: 5000
             
+
+
