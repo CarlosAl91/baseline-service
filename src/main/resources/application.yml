@@ -6,30 +6,5 @@ spring:
     name: baseline-service
 
 
-security:
-  basic:
-    enable: false
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
-
-hystrix:
-  threadpool:
-    default:
-      coreSize: 35
-      maximumSize: 35
-  command:
-    createRevenueGrid:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 1500
-          semaphore:
-            maxConcurrentRequests: 500
-      circuitBreaker:
-        sleepWindowInMilliseconds: 5000       
+      
 
