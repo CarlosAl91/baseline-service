@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>practicas-cloud</groupId>
-	<artifactId>baseline-service-cavm</artifactId>
+	<artifactId>baseline-service</artifactId>
 	<version>1.0.0</version>
 
 	<parent>
